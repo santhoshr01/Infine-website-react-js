@@ -1,0 +1,20 @@
+.nav-logo
+{
+    color: #00d084;
+    font-size: 40px;
+}
+
+.nav-links
+{
+    margin-right: 400px;
+}
+.navbar 
+{
+    border-radius: 20px;
+     border-bottom:  0.8pt solid gray ; 
+}
+
+.line
+{
+    color: white;
+}

@@ -1,0 +1,36 @@
+.hero-features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+  color: white;
+  padding: 40px 60px;
+  border-radius: 0 0 30px 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  top: -170px;
+  margin-bottom: 10px;
+  opacity: 70%;
+  border-top: 1px solid gainsboro;
+  
+
+}
+
+.feature {
+  text-align: center;
+  
+}
+
+.feature-icon {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #f0f0f0;
+}
+

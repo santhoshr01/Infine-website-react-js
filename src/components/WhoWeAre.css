@@ -1,0 +1,113 @@
+.who-section {
+  background-color: #f5f7f5;
+  padding: 80px 0;
+  color: #111827;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.who-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 50px;
+  padding: 0 30px;
+}
+
+.who-content {
+  flex: 1;
+}
+
+.who-tag {
+  color: #2af598;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.who-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 15px 0;
+  line-height: 1.2;
+}
+
+.who-title span {
+  color: #2af598;
+}
+
+.who-desc {
+  color: #6b7280;
+  font-size: 17px;
+  margin-bottom: 40px;
+  line-height: 1.7;
+}
+
+.who-stats {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.circle {
+  border: 2px solid #2af598;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  background: linear-gradient(to right, #dfffe9, #fafffd);
+  margin: auto;
+}
+
+.stat p {
+  margin-top: 10px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.who-line {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+.who-extra h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.who-extra p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.who-list li {
+  color: #374151;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.who-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.who-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}

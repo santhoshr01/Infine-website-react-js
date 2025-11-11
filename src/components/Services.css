@@ -1,0 +1,154 @@
+.services-section {
+
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 120px;
+    background-color: #002b29;
+    color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.services-center{
+    display: flex;
+}
+
+.services-left {
+    flex: 1;
+    max-width: 500px;
+}
+
+.tag {
+    color: #8effc1;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.services-left h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.services-left h1 span {
+    color: #41e09a;
+}
+
+.description {
+    margin: 24px 0;
+    color: #c5c5c5;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.btn-view {
+    background: linear-gradient(90deg, #02aab0, #00cdac);
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn-view:hover {
+    transform: scale(1.05);
+}
+
+.services-right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    flex: 1;
+
+}
+
+.service-center{
+    display: flex;
+}
+
+.service-card {
+    background-color: transparent;
+    text-align: left;
+    color: #fff;
+}
+
+.icon {
+    background: linear-gradient(135deg, #00cdac, #02aab0);
+    border-radius: 50%;
+    padding: 18px;
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 16px;
+
+}
+
+.service-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #b6b6b6;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+    .services-section {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .services-right {
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+    }
+}
+
+/* Bottom divider line */
+.bottom-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 50px 0;
+
+}
+
+/* Quote section */
+.quote-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+}
+
+/* Free badge */
+.free-badge {
+    background: linear-gradient(135deg, #2af598 0%, #009efd 100%);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 6px 16px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+/* Get Free Quote link */
+.free-quote {
+    color: #2af598;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.free-quote:hover {
+    text-decoration: underline;
+    color: #00ffae;
+}

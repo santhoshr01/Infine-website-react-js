@@ -6,6 +6,8 @@ import AboutSection from './components/About/AboutSection';
 import HeroFeatures from "./components/HeroFeatures";
 import Services from "./components/Services"; // or ./components/Services
 import WhoWeAre from "./components/WhoWeAre";
+import Pricing from "./components/Pricing";
+import ExpertiseSection from "./components/ExpertiseSection";
 
 
 
@@ -21,6 +23,8 @@ function App() {
       <AboutSection/>
       <Services/>
       <WhoWeAre />
+      <Pricing />
+      <ExpertiseSection />
       
       {/* <HeroFeatures /> */}
 
